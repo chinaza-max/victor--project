@@ -12,10 +12,10 @@ app.get('/',function(req,res){
 });
 
 app.get('/about',(req,res)=>{
-    res.sendFile(__dirname+'/about.html');
+   /* res.sendFile(__dirname+'/about.html');*/
 })
 app.get('/pricing',(req,res)=>{
-    res.sendFile(__dirname+'/pricing.html');
+  /*  res.sendFile(__dirname+'/pricing.html');*/
 })
 app.get('/pricing',(req,res)=>{
     res.render('succcess',"{your success massage}");
